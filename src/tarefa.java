@@ -6,8 +6,10 @@ public class tarefa {
         System.out.print("Digite um numero: ");
         Scanner ler = new Scanner(System.in);
         int numero = ler.nextInt();
-        for (int i = 0; i <= 10; i++) {
-            System.out.println(numero + " x " + i  + " = " + (numero * i) );
+        int multiplicador = 0;
+        while (multiplicador <= 10) {
+            System.out.println(numero + " x " + multiplicador  + " = " + (numero * multiplicador) );
+            multiplicador++;
         }
 
     }
